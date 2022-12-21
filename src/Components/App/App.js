@@ -13,6 +13,10 @@ class App extends React.Component {
       searchResults: [ 
         { name: 'American Idiot', artist: 'Green Day', album: 'American Idiot', id: 1 },
         { name: 'Crawling', artist: 'Linkin Park', album: 'Hybrid Theory', id: 2 }
+      ],
+      playlistName: 'Awesome Playlist',
+      playlistTracks: [
+        { name: 'Breaking The Habit', artist: 'Linkin Park', album: 'Meteora', id: 1}
       ]
     };
   }
@@ -25,7 +29,7 @@ class App extends React.Component {
           <SearchBar />
           <div className="App-playlist">
             <SearchResults searchResults={this.state.searchResults} />
-            <Playlist />
+            <Playlist playlistName={this.state.playlistName} playlistTracks={this.state.playlistTracks} />
           </div>
         </div>
       </div>
