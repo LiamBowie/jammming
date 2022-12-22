@@ -22,4 +22,4 @@ Good luck!
 2. Create an app in your dashboard with a name and a description
 3. Copy your unique Client ID to your clipboard
 4. In the project, create a config.js file in the src/util directory. 
-5. In the config.js file write ```export const CLIENT_ID = ``` and past your Client ID here.  
+5. In the config.js file write ```export const CLIENT_ID = ``` and paste your Client ID here.  
