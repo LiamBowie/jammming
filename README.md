@@ -15,3 +15,11 @@ This is a long project, but we’ll be with you every step of the way. Whether y
 Good luck!
 
 [Update December 2020: We’ve noticed that some learners outside of the United States are unable to create a Spotify account. While we work on this issue, you may try other music APIs that support GET and POST request or skip the project for now. Other APIs can be found on this page or this page. You’ll need to adjust steps 74-95 accordingly.]
+
+### Using this code on your local machine. 
+
+1. Create a spotify account at this url: https://developer.spotify.com/dashboard/
+2. Create an app in your dashboard with a name and a description
+3. Copy your unique Client ID to your clipboard
+4. In the project, create a config.js file in the src/util directory. 
+5. In the config.js file write ```export const CLIENT_ID = ``` and past your Client ID here.  
